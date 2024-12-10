@@ -27,18 +27,14 @@ conda activate da-pipeline-make
 Run the analysis:
 
 ```
-bash runall.sh
+make all
 ```
 
-### Exercise:
+Reset the analysis:
 
-Your task is to add a "smarter" data analysis pipeline using GNU Make!
-It should accomplish the same task as `bash runall.sh` when you type
-`make all`.
-
-It should reset the analysis the starting point 
-(the state when you first copied this repo)
-when you type `make clean`.
+```
+make clean
+```
 
 ### Depenedencies
 - GNU Make
